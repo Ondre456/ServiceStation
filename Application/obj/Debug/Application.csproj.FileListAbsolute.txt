@@ -1,0 +1,6 @@
+D:\программы\ServiceStation\Application\bin\Debug\Application.exe.config
+D:\программы\ServiceStation\Application\bin\Debug\Application.exe
+D:\программы\ServiceStation\Application\bin\Debug\Application.pdb
+D:\программы\ServiceStation\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+D:\программы\ServiceStation\Application\obj\Debug\Application.exe
+D:\программы\ServiceStation\Application\obj\Debug\Application.pdb
