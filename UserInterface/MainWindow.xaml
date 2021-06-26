@@ -1,0 +1,18 @@
+﻿<Window x:Class="UserInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        SizeChanged="Window_SizeChanged"
+        >
+    <Grid>
+        <DataGrid x:Name="MainDataGrid" DataGridCell.Unselected="MainDataGrid_Unselected" DataGridCell.Selected="MainDataGrid_Selected" IsReadOnly="True" HorizontalAlignment="Left" Height="397" VerticalAlignment="Top" Width="792" Margin="0,22,0,0"/>
+        <ComboBox Name="TablesChanger" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectionChanged="TablesChanger_SelectionChanged"/>
+        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Right" VerticalAlignment="Top" Width="94" Height="22"/>
+        <Button x:Name="updateButton" Content="Обновить" HorizontalAlignment="Left" Margin="611,0,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click_1" Height="22"/>
+        <Button x:Name="clientWindow" Content="Открыть окно пользователя" Click="Button_Click_2" HorizontalAlignment="Left" Margin="444,0,0,0" VerticalAlignment="Top" Width="167" Height="22"/>
+    </Grid>
+</Window>
